@@ -7,7 +7,7 @@ public final class Untitled13 extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new Event(this), this);
-        getServer().getPluginManager().registerEvents(new Listener(), this);
+        getServer().getPluginManager().registerEvents(new newListener(), this);
 
     }
 
